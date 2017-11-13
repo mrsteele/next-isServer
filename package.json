@@ -1,0 +1,24 @@
+{
+  "name": "next-isserver",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "author": "Matt Steele <matt@omnionline.us> (http://omnionline.us/)",
+  "license": "MIT",
+  "devDependencies": {
+    "next": "^4.1.4",
+    "next-routes": "^1.1.0",
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0"
+  }
+}
