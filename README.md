@@ -17,7 +17,7 @@ Create your server file if you have not yet already:
 ```js
 // server.js
 const next = require('next')
-const isServer = require('./index.js')
+const isServer = require('next-isserver')
 const app = next({dev: process.env.NODE_ENV !== 'production'})
 const handler = isServer(app)
 
