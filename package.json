@@ -1,6 +1,6 @@
 {
   "name": "next-isserver",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A nextjs plugin to pass isServer to getInitialProps",
   "main": "index.js",
   "scripts": {
@@ -27,5 +27,14 @@
     "next-routes": "^1.1.0",
     "react": "^16.1.0",
     "react-dom": "^16.1.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrsteele/next-isServer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrsteele/next-isServer/issues"
+  },
+  "homepage": "https://github.com/mrsteele/next-isServer#readme"
 }
