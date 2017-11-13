@@ -1,6 +1,6 @@
 # next-isServer
 
-A simple plugin to check if `getInitialProps` was loaded on the server or the client.
+A simple [nextjs](https://github.com/zeit/next.js/) plugin to check if `getInitialProps` was loaded on the server or the client.
 
 ### How to use
 
@@ -62,7 +62,7 @@ export default class extends React.Component {
   render() {
     return (
       <div>
-        Hello World. Is this the server? {this.props.isServer ? 'YES': 'NO'}
+        This page was {this.props.isServer ? '': 'NOT'} rendered on the server.
       </div>
     )
   }

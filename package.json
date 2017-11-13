@@ -1,7 +1,7 @@
 {
   "name": "next-isserver",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "A nextjs plugin to pass isServer to getInitialProps",
   "main": "index.js",
   "scripts": {
     "dev": "node server.js",
@@ -12,6 +12,13 @@
     "index.js",
     "README.md",
     "LICENSE"
+  ],
+  "keywords": [
+    "next",
+    "next.js",
+    "react",
+    "server",
+    "isserver"
   ],
   "author": "Matt Steele <matt@omnionline.us> (http://omnionline.us/)",
   "license": "MIT",
