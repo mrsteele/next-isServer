@@ -4,6 +4,7 @@
   "description": "A nextjs plugin to pass isServer to getInitialProps",
   "main": "index.js",
   "scripts": {
+    "lint": "standard",
     "dev": "node server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server.js"
