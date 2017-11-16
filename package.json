@@ -28,7 +28,9 @@
     "react": "^16.1.0",
     "react-dom": "^16.1.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "standard": "^10.0.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mrsteele/next-isServer.git"
